@@ -12,7 +12,8 @@ const ColorModeSwitcher = props => {
       top={'4'}
       right={'4'}
       variant="ghost"
-      color="current"      
+      color="current"
+      zIndex={"overlay"}      
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
       {...props}
